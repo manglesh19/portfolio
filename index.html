@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mangalesh's student portfolio, skills and projects.">
+    <title>Mangalesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Mangalesh<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>Hello, I'm <span>Mangalesh</span></h1>
+                    <h2>Student | Aspiring Developer</h2>
+
+                    <p class="hero-description">
+                        I am a student who enjoys learning programming,
+                        solving problems, and building creative projects.
+                        I am continuously developing my technical skills
+                        and exploring new technologies.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Card -->
+                <div class="hero-card">
+                    <div class="profile-circle">
+                        <img
+                            src="./image.jpg.jpeg"
+                            alt="Mangalesh profile photo"
+                            onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='grid';"
+                        >
+                        <div id="photo-fallback" class="photo-fallback"
+                             style="display:none;">
+                            M
+                        </div>
+                    </div>
+
+                    <h3>Mangalesh</h3>
+                    <p>Student and aspiring developer</p>
+
+                    <div class="hero-tags">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>Web Development</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little introduction about who I am and what I do.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">✦</div>
+
+                    <div>
+                        <h3>My Introduction</h3>
+
+                        <p>
+                            Hello! My name is Mangalesh. I am a student
+                            interested in programming, web development,
+                            and technology. I have been learning C, Python,
+                            and Java, along with HTML, CSS, and JavaScript.
+                        </p>
+
+                        <p>
+                            I enjoy learning by doing, improving my
+                            problem-solving abilities, and developing
+                            practical projects. My goal is to continue
+                            learning and create useful applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section section-soft" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I'VE BEEN WORKING ON</p>
+                    <h2>My <span>Projects</span></h2>
+                    <p>Some of my learning and development work.</p>
+                </div>
+
+                <div class="card-grid">
+                    <article class="project-card">
+                        <div class="project-icon">📚</div>
+
+                        <h3>Library Book Borrowing, Return and Fine Calculation System</h3>
+
+                        <p>
+                            This is a basic Java-based library system for
+                            borrowing and returning books. It calculates a
+                            fine of ₹5 per day for books kept longer than
+                            7 days. It uses conditional statements, loops,
+                            and user input to manage book transactions.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Java</span>
+                            
+                        </div>
+
+                        <a class="text-link"
+                           href="https://github.com/manglesh19/javaproject"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub ↗
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+                    <h2>My <span>Skills</span></h2>
+                    <p>Technologies and abilities I am developing.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">⌨️</div>
+                        <h3>Programming Languages</h3>
+                        <div class="tag-list">
+                            <span>C</span>
+                            <span>Python</span>
+                            <span>Java</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>Web Development</h3>
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">🛠️</div>
+                        <h3>Tools</h3>
+                        <div class="tag-list">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">💡</div>
+                        <h3>Personal Skills</h3>
+                        <div class="tag-list">
+                            <span>Problem Solving</span>
+                            <span>Teamwork</span>
+                            <span>Learning</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section section-soft" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                    <h2>My <span>Education</span></h2>
+                    <p>My education and learning journey.</p>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+
+                    <div>
+                        <p class="certificate-type">CURRENT STUDIES</p>
+                        <h3>Bachelor of Science in Information Technology</h3>
+
+                        <p>
+                            I am Mangalesh M, currently pursuing a
+                            B.Sc. in Information Technology at KG College
+                            of Arts and Science. I am passionate about
+                            programming, technology, and web development,
+                            and I am continuously improving my technical
+                            knowledge by building projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span>Me</span></h2>
+
+                    <p>
+                        Feel free to reach out about projects,
+                        collaboration, or learning opportunities.
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>I'd love to hear from you!</h3>
+
+                    <p>
+                        You can contact me by email or connect with me
+                        through your professional profiles.
+                    </p>
+
+                    <!-- Replace with your real email address -->
+                    <a class="btn btn-primary"
+                       href="mailto:YOUR_EMAIL@example.com">
+                        Send Me an Email
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">Mangalesh<span>.</span></a>
+            <p>Designed and built with HTML, CSS and JavaScript.</p>
+            <p>
+                &copy; <span id="current-year"></span>
+                Mangalesh. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="back-to-top"
+            aria-label="Back to top" title="Back to top">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
